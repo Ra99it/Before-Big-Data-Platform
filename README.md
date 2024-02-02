@@ -72,3 +72,8 @@ arvo를 사용한 이유는 데이터 압축이 뛰어나다는 장점이 있습
 #### 기술 아키텍처 
 ![전체 아키텍처 drawio](https://github.com/Ra99it/Study_dataengineering/assets/122541545/4972be85-5e68-4617-8e93-0e485ebae2b2)
 
+##### 버전
+
++ <b>1.0.0 : 초기 </b>   
++ <b>1.0.1 : ip 노출 최소화, port 관리 , 보안 위주</b>   
+
