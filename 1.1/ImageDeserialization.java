@@ -33,7 +33,7 @@ public class ImageDeserialization {
     }
 
     public static void main(String[] args) throws IOException {
-        img_save("D:\\fastcampus\\de\\de-bigdata-project\\ML-DATA+1+0000000000+0000000002.avro");
+        img_save(".\\ML-DATA+1+0000000000+0000000002.avro");
     }
 
 }
