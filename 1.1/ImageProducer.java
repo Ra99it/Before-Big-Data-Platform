@@ -22,8 +22,7 @@ import java.util.Properties;
 
 public class ImageProducer {
     public static void main(String[] args) throws IOException {
-        String ImagePath_1 = "D:\\fastcampus\\de\\de-bigdata-project\\src\\main\\resources\\ML_IMAGES\\Image_0b00ce8d-3750-4836-864c-7580b89a1453.jpg";
-
+        String ImagePath_1 = "";
         byte[] imageInByte;
 
         BufferedImage originalImage = ImageIO.read(new File(ImagePath_1));
@@ -47,8 +46,8 @@ public class ImageProducer {
         //*******Producer******************
         Properties props = new Properties();
 
-        String BOOTSTRAP_SERVER = "kafka-cluster-01:9092";
-        String TOPIC_NAME = "Image-ML";
+        String BOOTSTRAP_SERVER = "kafka-cluster-01:9092,kafka-cluster-02:9092,kafka-cluster-03:9092";
+        String TOPIC_NAME = "image";
 
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVER);
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
