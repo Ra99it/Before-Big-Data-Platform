@@ -18,8 +18,8 @@ public class ImageConsumer {
         //*******Consumer******************
         Properties props = new Properties();
 
-        String BOOTSTRAP_SERVERS = "kafka-cluster-01:9092";
-        String TOPIC_NAME = "Image-ML";
+        String BOOTSTRAP_SERVERS = "kafka-cluster-01:9092,kafka-cluster-02:9092,kafka-cluster-03:9092";
+        String TOPIC_NAME = "image";
 
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVERS);
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
