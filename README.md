@@ -8,6 +8,52 @@
 <b>고 가용성(high availability, HA)</b> : 서버, 네트워크, 프로그램 등의 정보 시스템이 상당히 오랜 기간 동안 지속적으로 정상 운영이 가능한 성질을 말한다. 고(高)가용성이란 "가용성이 높다"는 뜻으로서, "절대 고장 나지 않음"을 의미한다.
 
 <출처 : https://ko.wikipedia.org/wiki/%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1 >
+# 2.1
+## 서버정보
+<b>1. Hadoop and Spark with Cluster </b>
+|인스턴스 이름|성능|기술|
+|------|---|---|
+|hadoop-master-01|m5a.xlarge|Hadoop hdfs, yarn, Spark, mysql|
+|hadoop-worker-01|m5a.xlarge|Hadoop hdfs, yarn, Spark, mysql|
+|hadoop-worker-02|m5a.xlarge|Hadoop hdfs, yarn, Spark, mysql|
+|hadoop-worker-03|m5a.xlarge|Hadoop hdfs, yarn, Spark, mysql|
+
+<b>2. Kafka Cluster</b>
+|인스턴스 이름|성능|기술|
+|------|---|---|
+|de-kafka-cluster-1|t2.xlarge |Kafka, fluentd|
+|de-kafka-cluster-2|t2.xlarge |Kafka, fluentd|
+|de-kafka-cluster-3|t2.xlarge |Kafka, fluentd|
+
+<b>3. OpenSearch Cluster</b>
+|인스턴스 이름|성능|기술|
+|------|---|---|
+|de-os-manager|t2.medium|OpenSearch|
+|de-os-coordinator|t2.medium|OpenSearch|
+|de-os-data1|t2.medium|OpenSearch|
+|de-os-data2|t2.medium|OpenSearch|
+
+## 기술 아키텍처
+![전체 아키텍처 drawio (4)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/4561c008-04ac-4dba-bff8-93273f9f5fbf)
+
+
+## 클러스터 및 서버 관계도
+![클러스터 관계도 drawio (1)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/6fd7254d-78c7-4d31-8d6c-b5aaa3c9f89e)
+
+
+--------------
+## 설명
+
+### 1.1의 설명과 동일
+---------------
+
+### 버전
+- <b> V2.0.0 </b>
+  1. 수집된 데이터를 프로세싱을 위한 Spark 추가 및 클러스터 서버 단축운영
+- <b> V2.1.0 </b>
+  1. 데이터 웨어하우스와 데이터 레이크의 개념을 도입 및 구축, Spark의 데이터 웨어하우스를 Mysql로 추가로 구축했습니다.
+-------
+
 # 2.0
 ## 서버정보
 <b>1. Hadoop and Spark with Cluster </b>
@@ -44,6 +90,8 @@
 
 ## 클러스터 및 서버 관계도
 ![클러스터 관계도 drawio](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/8d7d7e5b-10f1-4fdf-b454-7680bcefd62f)
+
+
 
 --------------
 ## 설명
