@@ -39,7 +39,8 @@
 ![전체 아키텍처 drawio (5)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/85ae1b89-3ade-46c0-a827-caa6426ace28)
 
 ## 데이터 파이프라인 아키텍처
-![데이터파이프라인 drawio](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/baf7dfee-2135-49f5-8b9d-b9b28670645f)
+![데이터파이프라인 drawio (1)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/db9dc84c-fe91-45dc-9c7f-a99afd9951fa)
+
 
 ## 클러스터 관계도
 ![클러스터 관계도 drawio (2)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/8a8649ca-2dab-4dee-921f-46abe7316877)
