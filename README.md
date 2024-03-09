@@ -9,6 +9,7 @@
 
 <출처 : https://ko.wikipedia.org/wiki/%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1 >
 
+
 # 3.0
 ## 서버정보
 
@@ -45,8 +46,10 @@
 ## 클러스터 관계도
 ![클러스터 관계도 drawio (2)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/8a8649ca-2dab-4dee-921f-46abe7316877)
 
-## 설명
-
+### 버전
+- <b> V3.0.0 </b>
+  1. 데이터 파이프라인 아키텍처 추가 및 Cassandra 추가
+     
 ---------
 # 2.1
 ## 서버정보
