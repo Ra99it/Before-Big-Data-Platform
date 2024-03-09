@@ -10,7 +10,7 @@
 <출처 : https://ko.wikipedia.org/wiki/%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1 >
 
 
-# 3.0
+# 3.0 -> 3.1
 ## 서버정보
 
 <b>1. Hadoop and Spark with Cluster </b>
@@ -39,7 +39,13 @@
 ## 전체 기술 아키텍처
 ![전체 아키텍처 drawio (5)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/85ae1b89-3ade-46c0-a827-caa6426ace28)
 
+
 ## 데이터 파이프라인 아키텍처
+
+### 3.1
+![데이터파이프라인 drawio (2)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/c1805df7-e2f0-44c4-9805-7ce7533ea187)
+
+### 3.0
 ![데이터파이프라인 drawio (1)](https://github.com/Ra99it/Distributed-processing-and-cluster-operations-engineering/assets/122541545/db9dc84c-fe91-45dc-9c7f-a99afd9951fa)
 
 
@@ -49,6 +55,8 @@
 ### 버전
 - <b> V3.0.0 </b>
   1. 데이터 파이프라인 아키텍처 추가 및 Cassandra 추가
+- <b> V3.1.0 </b>
+  1. 데이터 파이프라인 아키텍처 변경
      
 ---------
 # 2.1
